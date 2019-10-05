@@ -1,0 +1,19 @@
+{
+  "name": "webpack-and-svelte",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "sideEffects": false,
+  "dependencies": {
+    "flatpickr": "^4.6.3",
+    "mini-css-extract-plugin": "^0.8.0",
+    "svelte": "^3.12.1",
+    "svelte-loader": "^2.13.6",
+    "webpack": "^4.41.0",
+    "webpack-bundle-analyzer": "^3.5.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "scripts": {
+    "prod": "webpack --config ./webpack.config.js"
+  }
+}
